@@ -1,0 +1,18 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        byte Num1 = 23;
+        byte Num2 = 50;
+        
+        // Explicitly cast the result to byte
+        byte total1 = (byte) (Num1 + Num2);
+        byte total2 = (byte) (Num1 * Num2);
+        byte total3 = (byte) (Num1 % Num2);
+        byte total4 = (byte) (Num1 - Num2);
+        
+        System.out.println("The total1 value is " + total1);
+        System.out.println("The total2 value is " + total2);
+        System.out.println("The total3 value is " + total3);
+        System.out.println("The total4 value is " + total4);
+    }
+}
