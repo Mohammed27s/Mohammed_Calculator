@@ -1,0 +1,23 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        
+        
+        float Num1 = 23;
+        float Num2 = 50;
+        
+        float total1 = Num1 + Num2;
+        float total2 = Num1 * Num2;
+        float total3 = Num1 % Num2; 
+        float total4 = Num1 - Num2;
+        
+        System.out.println("The total1 value is "+ total1);
+        
+         System.out.println("The total2 value is "+ total2);
+          System.out.println("The total3 value is "+ total3);
+           System.out.println("The total4 value is "+ total4);
+        
+        
+        
+    }
+}
