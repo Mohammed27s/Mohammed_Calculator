@@ -1,0 +1,15 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        char thisChar = 'L';
+        char bond = 'i';
+        char come = 'n';
+        char close = 'u';
+        char cat = 'x';
+        
+        // Convert characters to String and concatenate
+        String result = "" + thisChar + bond + come + close + cat;
+        
+        System.out.println(result);
+    }
+}
