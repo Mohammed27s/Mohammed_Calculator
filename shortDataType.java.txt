@@ -1,0 +1,22 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        
+        
+        short Num1 = 23;
+        short Num2 = 50;
+        
+        short total1 = Num1 + Num2;
+        short total2 = Num1 * Num2;
+        short total3 = Num1 % Num2; 
+        short total4 = Num1 - Num2;
+        
+        System.out.println("The total1 value is "+ total1);
+         System.out.println("The total2 value is "+ total2);
+          System.out.println("The total3 value is "+ total3);
+           System.out.println("The total4 value is "+ total4);
+        
+        
+        
+    }
+}
