@@ -1,0 +1,25 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        
+        
+       boolean on = true;
+       boolean off = false;
+       
+       if(on == true){
+           
+           System.out.println("The traffic light is white, go ");
+       }
+       
+       else 
+       {
+          System.out.println("The light is red, dont move");
+          
+       }
+       
+       
+        
+        
+        
+    }
+}
